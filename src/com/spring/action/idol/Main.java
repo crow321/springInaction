@@ -19,10 +19,17 @@ public class Main {
 		Performer performer3 = (Performer) context.getBean("kenny");
 		performer3.perform();
 
-        System.out.println("===========AOP test===============");
+        System.out.println("===========AOP test START===============");
         ApplicationContext context1 = new ClassPathXmlApplicationContext("xml/aop.xml");
         Performer instrumentlist = (Performer) context1.getBean("instrumentlist");
         instrumentlist.perform();
+        System.out.println("===========AOP test END===============");
+        /*测试带参数aop*/
+        Thinker volunteer = (Thinker) context1.getBean("volunteer");
+        volunteer.thinkOfSomething("Queen of Hearts...");
+
+        MinderReader magician = (MinderReader) context1.getBean("magician");
+        System.out.println( "志愿者心里在想的是 ： "+magician.getThgoughts());
     }
 
 }
