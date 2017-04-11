@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置bean-->
+    <bean id="audience" class="com.spring.action.idol.Audience"/>
+    <bean id="tom" class="com.spring.action.idol.Instrumentalist">
+        <property name="instrument" ref="guitar"/>
+        <property name="song" value="SNOW"/>
+    </bean>
+    <bean id="guitar" class="com.spring.action.idol.Guitar"/>
+    <!--配置aop-->
+    <aop:config>
+        <aop:aspect ref="audience">
+            <aop:pointcut id="perform" expression="execution(* com.spring.action.idol.Performer.perform(..))"/>
+            <aop:before pointcut-ref="perform" method="beforePerform"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>
