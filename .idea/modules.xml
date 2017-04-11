@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/moduleLibs/moduleLibs.iml" filepath="$PROJECT_DIR$/moduleLibs/moduleLibs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springActionIdol.iml" filepath="$PROJECT_DIR$/springActionIdol.iml" />
     </modules>
   </component>
