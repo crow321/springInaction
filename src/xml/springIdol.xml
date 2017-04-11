@@ -29,7 +29,7 @@
 	/>
 	
 	<!-- setter and getter()方法注入bean，构造器注入bean测试 -->
-	<bean id="kenny" class="com.spring.action.idol.Instrumentalist">
+	<bean id="kenny" class="com.spring.action.idol.Instrumentlist">
 		<property name="song" value="Juggle Bells" />
 		<!-- ref 引用其他bean -->
 		<property name="instrument" ref="piano"/>

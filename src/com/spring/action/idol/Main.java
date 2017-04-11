@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("===========AOP test===============");
         ApplicationContext context1 = new ClassPathXmlApplicationContext("xml/aop.xml");
-        Performer instrumentlist = (Performer) context1.getBean("tom");
+        Performer instrumentlist = (Performer) context1.getBean("instrumentlist");
         instrumentlist.perform();
     }
 

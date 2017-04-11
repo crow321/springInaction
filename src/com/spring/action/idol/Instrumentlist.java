@@ -1,13 +1,20 @@
-//ÒôÀÖ±íÑÝ¼Ò
-//Á·Ï°×¢Èëbean
+//ï¿½ï¿½ï¿½Ö±ï¿½ï¿½Ý¼ï¿½
+//ï¿½ï¿½Ï°×¢ï¿½ï¿½bean
 package com.spring.action.idol;
 
-public class Instrumentalist implements Performer {
-	
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Instrumentlist implements Performer {
+
 	private Instrument instrument;
+    @Value("snow")
 	private String song;
 	
-	public Instrumentalist() {
+	public Instrumentlist() {
 	}
 	
 	@Override
@@ -22,11 +29,13 @@ public class Instrumentalist implements Performer {
 	public String getSong() {
 		return song;
 	}
-	//×¢Èë¸èÇú
+	//
 	public void setSong(String song) {
 		this.song = song;
 	}
-	//×¢ÈëÀÖÆ÷
+	//
+    @Autowired()
+    @Qualifier("guitar")
 	public void setInstrument(Instrument intstrument) {
 		this.instrument = intstrument;
 	}
