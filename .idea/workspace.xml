@@ -2,114 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb0f2e6-de47-495d-b327-00d127a308ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_java_driver_3_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/spring/mongo/MongoApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/OrderDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/spring/mongo/OrderDaoDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/ipml/OrderDaoIpml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/spring/mongo/OrderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/ipml/OrderOperationIpml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/OrderOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part2/mongo/orders/OrderTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part3/WEB/SpittrWebAppInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/aaa.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/part2/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/part2/mongo/mongo.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/part2/mongo/mongo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\.project" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\.springBeans" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Auditorium.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Guitar.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Instrument.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Instrumentalist.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Juggler.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\PerformanceException.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Performer.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Piano.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Poem.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\PoemJuggler.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Song.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Sonnet29.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Stage$StageSingletonHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\com\spring\action\idol\Stage.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\bin\springIdol.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\aspectjweaver-1.8.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\jboss-logging-3.1.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-aop-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-aspects-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-beans-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-context-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-context-support-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-core-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-expression-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-instrument-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-instrument-tomcat-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-jdbc-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-jms-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-orm-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-oxm-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-test-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\libs\spring-tx-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Audience.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Auditorium.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Guitar.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Instrument.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Instrumentlist.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Juggler.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Magician.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\MinderReader.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\PerformanceException.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Performer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Piano.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Poem.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\PoemJuggler.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Song.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Sonnet29.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Stage.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Thinker.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\com\spring\action\idol\Volunteer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\xml\aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\src\xml\springIdol.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\idea\mylearn\springActionIdol\test\Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/libs2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/libs2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springActionIdol.iml" afterPath="$PROJECT_DIR$/springActionIdol.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Audience.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Auditorium.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Instrument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Instrumentlist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Juggler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Magician.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/MinderReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/PerformanceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Performer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Piano.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Poem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/PoemJuggler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Song.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Sonnet29.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Stage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Thinker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/action/idol/part1/Volunteer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/part1/aop.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/part1/springIdol.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -148,8 +63,8 @@
       <file leaf-file-name="SpittrWebAppInitializer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/action/idol/part3/WEB/SpittrWebAppInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12513034" vertical-offset="0" max-vertical-offset="959">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.26456693" vertical-offset="0" max-vertical-offset="635">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -285,10 +200,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="springActionIdol" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -429,6 +340,22 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="725" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="65" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="725" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -897,7 +824,7 @@
       <workItem from="1492432299773" duration="1648000" />
       <workItem from="1493370226373" duration="115000" />
       <workItem from="1493793858083" duration="15496000" />
-      <workItem from="1493815186342" duration="367000" />
+      <workItem from="1493815186342" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="start Git ...">
       <created>1491557324683</created>
@@ -935,11 +862,17 @@
       <option name="project" value="LOCAL" />
       <updated>1491914198444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete mongoDB idol&#10;">
+      <created>1493815585534</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493815585534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32209000" />
+    <option name="totallyTimeSpent" value="32776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,15 +890,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32793522" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -981,7 +915,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1012,7 +945,8 @@
     <MESSAGE value="add interface MinderReader&#10;" />
     <MESSAGE value="add interface MinderReader 2&#10;" />
     <MESSAGE value="complete MinderReader code and test&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete MinderReader code and test&#10;" />
+    <MESSAGE value="complete mongoDB idol&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete mongoDB idol&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1120,6 +1054,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,6 +1113,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="635">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,6 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,6 +1206,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="1032">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,6 +1222,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,6 +1243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,6 +1251,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="720">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,6 +1261,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="22137" max-vertical-offset="56400">
           <caret line="1117" column="18" selection-start-line="1117" selection-start-column="18" selection-end-line="1117" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,6 +1269,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1234" max-vertical-offset="2904">
           <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,6 +1277,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="984">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,6 +1287,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1957" max-vertical-offset="2664">
           <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,6 +1297,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09148265" vertical-offset="878" max-vertical-offset="1512">
           <caret line="39" column="11" selection-start-line="35" selection-start-column="7" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,6 +1318,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56692916" vertical-offset="0" max-vertical-offset="635">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,6 +1336,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1296">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#655#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,6 +1349,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49133858" vertical-offset="0" max-vertical-offset="635">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,8 +1363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/action/idol/part3/WEB/SpittrWebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12513034" vertical-offset="0" max-vertical-offset="959">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.26456693" vertical-offset="0" max-vertical-offset="635">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
