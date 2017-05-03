@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd 
+       http://www.springframework.org/schema/data/mongo
+       http://www.springframework.org/schema/data/mongo/spring-mongo.xsd ">
+    <!--加载mongo.properties配置文件-->
+    <context:property-placeholder location="part2/mongo/mongo.properties"/>
+    <!--配置mongo-->
+    <mongo:mongo-client id="mongo" host="${mongo.host}" port="${mongo.port}">
+        <mongo:client-options connect-timeout="${mongo.connectTimeout}"
+                              description="${mongo.description}"
+                              max-wait-time="${mongo.maxWaitTime}"
+                              socket-timeout="${mongo.socketTimeout}"/>
+    </mongo:mongo-client>
+    <mongo:db-factory id="mongoDbFactory"
+                      dbname="OrdersDB"
+                      mongo-ref="mongo"/>
+    <!--声明mongoTemplate-->
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg ref="mongoDbFactory"/>
+    </bean>
+</beans>
