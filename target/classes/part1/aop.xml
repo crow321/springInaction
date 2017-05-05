@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置bean
+    <bean id="audience"
+          class="com.spring.action.idol.part1.Audience"/>
+
+    <bean id="tom" class="com.spring.action.idol.Instrumentalist">
+        <property name="instrument" ref="guitar"/>
+        <property name="song" value="SNOW"/>
+    </bean>
+    <bean id="guitar" class="com.spring.action.idol.part1.Guitar"/>
+    -->
+
+    <!--使用自动注解装配bean-->
+    <context:component-scan base-package="com.spring.action.idol"/>
+    <!--配置aop-->
+<!--
+    <aop:config>
+        <aop:aspect ref="audience">
+            <aop:pointcut
+                    id="perform"
+                    expression="execution(* com.spring.action.idol.part1.Performer.perform(..))"/>
+            <aop:before
+                    pointcut-ref="perform"
+                    method="beforePerform"/>
+            <aop:after-returning
+                    pointcut-ref="perform"
+                    method="afterPerform"/>
+            <aop:after-throwing
+                    pointcut-ref="perform"
+                    method="throwPerform"/>
+            <aop:around
+                    pointcut-ref="perform"
+                    method="watchPerform"/>
+        </aop:aspect>
+    </aop:config>
+-->
+
+    <!--使用aop注解方式配置-->
+    <aop:aspectj-autoproxy/>
+</beans>
