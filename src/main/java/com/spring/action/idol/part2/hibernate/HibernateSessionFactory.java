@@ -16,20 +16,18 @@ import org.slf4j.LoggerFactory;
 public class HibernateSessionFactory {
     private final static Logger LOGGER = LoggerFactory.getLogger(HibernateSessionFactory.class);
     private final static SessionFactory sessionFactory;
-    private final static ServiceRegistry registry;
 
     static {
         LOGGER.info("static");
+
         try {
             Configuration configuration = new Configuration().configure();
-            //configuration.addClass(StudentsEntity.class);
-            registry = new StandardServiceRegistryBuilder().build();
-            sessionFactory = configuration.buildSessionFactory(registry);
+            sessionFactory = configuration.buildSessionFactory();
         } catch (Throwable throwable) {
             throw new ExceptionInInitializerError(throwable);
         }
-
     }
+
     public static Session getSession() throws HibernateException {
         return sessionFactory.openSession();
     }

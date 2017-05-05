@@ -89,4 +89,10 @@ public class StudentsEntity {
         result = 31 * result + id;
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "student[name:" + name + ", id:" + id + ", age:" + age
+                + ", sex:" + sex + ", address:" + addres + ", tel:" + telephone + "]";
+    }
 }

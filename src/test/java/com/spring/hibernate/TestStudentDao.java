@@ -2,6 +2,7 @@ package com.spring.hibernate;
 
 import com.spring.action.idol.part2.hibernate.dao.StudentDao;
 import com.spring.action.idol.part2.hibernate.entity.StudentsEntity;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,15 +19,21 @@ public class TestStudentDao {
     StudentDao studentDao;
 
     @Test
-    public void testGetStudentById(){
-
+    public void testGetStudentById() {
+        StudentsEntity student = studentDao.getStudentById("1");
+        Assert.assertEquals(101, student.getTelephone());
+        //System.out.println(student);
     }
 
     @Test
     public void testAddStudent(){
         StudentsEntity entity = new StudentsEntity();
-//        entity.setId("101");
-        entity.setName("实习生");
+        entity.setName("AddStudent");
+        entity.setAge(18);
+        entity.setTelephone(123);
+        entity.setAddres("address");
+        entity.setSex("男");
+
         studentDao.addStudent(entity);
     }
 }
