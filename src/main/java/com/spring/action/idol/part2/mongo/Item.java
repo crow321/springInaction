@@ -1,4 +1,4 @@
-package com.spring.action.idol.part2.mongo.orders;
+package com.spring.action.idol.part2.mongo;
 
 /**
  * Created by zhangp on 2017/5/3.

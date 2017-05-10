@@ -1,7 +1,7 @@
-package com.spring.action.idol.part2.mongo.orders.ipml;
+package com.spring.action.idol.part2.mongo.ipml;
 
-import com.spring.action.idol.part2.mongo.orders.Order;
-import com.spring.action.idol.part2.mongo.orders.OrderOperations;
+import com.spring.action.idol.part2.mongo.Order;
+import com.spring.action.idol.part2.mongo.OrderOperations;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

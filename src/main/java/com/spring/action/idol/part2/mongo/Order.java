@@ -1,4 +1,4 @@
-package com.spring.action.idol.part2.mongo.orders;
+package com.spring.action.idol.part2.mongo;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.annotation.Id;

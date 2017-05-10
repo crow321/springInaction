@@ -1,9 +1,9 @@
 package com.spring.mongo;
 
-import com.spring.action.idol.part2.mongo.orders.Customer;
-import com.spring.action.idol.part2.mongo.orders.Item;
-import com.spring.action.idol.part2.mongo.orders.Order;
-import com.spring.action.idol.part2.mongo.orders.OrderDao;
+import com.spring.action.idol.part2.mongo.Customer;
+import com.spring.action.idol.part2.mongo.Item;
+import com.spring.action.idol.part2.mongo.Order;
+import com.spring.action.idol.part2.mongo.dao.OrderDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;
-import java.util.List;
 
 /**
  * Created by zhangp on 2017/5/3.

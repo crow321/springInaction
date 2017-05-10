@@ -1,4 +1,4 @@
-package com.spring.action.idol.part2.mongo.orders;
+package com.spring.action.idol.part2.mongo;
 
 import java.util.List;
 
@@ -8,5 +8,4 @@ import java.util.List;
  */
 public interface OrderOperations {
     List<Order> findOrderByType(String t);
-
 }

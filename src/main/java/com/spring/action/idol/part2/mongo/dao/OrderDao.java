@@ -1,6 +1,8 @@
-package com.spring.action.idol.part2.mongo.orders;
+package com.spring.action.idol.part2.mongo.dao;
 
-import org.springframework.data.mongodb.repository.MongoRepository;
+import com.spring.action.idol.part2.mongo.Customer;
+import com.spring.action.idol.part2.mongo.Order;
+import com.spring.action.idol.part2.mongo.OrderOperations;
 
 import java.util.List;
 

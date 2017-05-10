@@ -1,7 +1,7 @@
 package com.spring.mongo;
 
-import com.spring.action.idol.part2.mongo.orders.Item;
-import com.spring.action.idol.part2.mongo.orders.Order;
+import com.spring.action.idol.part2.mongo.Item;
+import com.spring.action.idol.part2.mongo.Order;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
