@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.spring.action.idol.part2.hibernate.hibernate2.entity.Person" table="z_person1_1">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+
+        <!--单向one-to-one映射配置-->
+        <!-- &lt;!&ndash; 主键关联：one-to-one映射&ndash;&gt;
+         <one-to-one name="address" constrained="true"/>-->
+        <!--唯一外键关联:采用<many-to-one>标签来映射，指定多的一端unique为true，这样就限制了多的一端的多重性为一-->
+        <many-to-one name="address" unique="true" cascade="save-update"/>
+    </class>
+
+    <class name="com.spring.action.idol.part2.hibernate.hibernate2.entity.Address" table="z_address1_1">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="address"/>
+    </class>
+</hibernate-mapping>

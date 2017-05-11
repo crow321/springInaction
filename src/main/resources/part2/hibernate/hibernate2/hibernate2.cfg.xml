@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--属性-->
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.56.102:3306/hibernate</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">mysql</property>
+
+        <!--使在控制台显示Hibernate用到的SQL语句-->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.connection.release_mode">auto</property>
+
+        <!--自动在数据库中创建表-->
+        <property name="hbm2ddl.auto">update</property>
+        <!--<property name="hbm2ddl.auto">create-drop</property>-->
+
+        <!--注意选择MySQLDialect时无法自动创建表-->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!--映射定义文件-->
+        <!--<mapping resource="part2/hibernate2/single/one2one.hbm.xml"/>-->
+        <!--<mapping resource="part2/hibernate2/single/many2one.hbm.xml"/>-->
+        <!--<mapping resource="part2/hibernate2/single/one-to-many.hbm.xml"/>-->
+
+    </session-factory>
+</hibernate-configuration>

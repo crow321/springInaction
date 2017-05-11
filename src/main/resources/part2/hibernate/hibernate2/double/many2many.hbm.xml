@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.spring.action.idol.part2.hibernate.hibernate2.entity.Person" table="z_person2_3">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <!--双向 many-to-many 映射-->
+        <set name="addresses" table="z_person_address2_3" cascade="save-update">
+            <key column="person_id"/>
+            <many-to-many column="address_id"
+                          class="com.spring.action.idol.part2.hibernate.hibernate2.entity.Address"/>
+        </set>
+    </class>
+
+    <class name="com.spring.action.idol.part2.hibernate.hibernate2.entity.Address" table="z_address2_3">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="address"/>
+        <set name="persons" table="z_person_address2_3" cascade="save-update">
+            <key column="address_id"/>
+            <many-to-many column="person_id"
+                          class="com.spring.action.idol.part2.hibernate.hibernate2.entity.Person"/>
+        </set>
+    </class>
+</hibernate-mapping>

@@ -7,72 +7,31 @@
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
     <schema name="" catalog="hibernate"/>
-    <table name="Employees" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="firstName" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
-      <column name="name" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
-      <column name="salary" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="type" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
-      <column name="bonus" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="payPerHour" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
-      <column name="contractDuration" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
+    <table name="z_address1_3" schema="" catalog="hibernate" type="TABLE">
+      <column name="address_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="address" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="person_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="address_id"/>
+      <index name="FKes1u3ince8ihhow092e4cg562" unique="false" columns="person_id"/>
     </table>
-    <table name="ListQuestion_answers" schema="" catalog="hibernate" type="TABLE">
-      <column name="qid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="answer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="qid,type"/>
-    </table>
-    <table name="News" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="title" sqlType="CHAR" precision="1" scale="0" nullable="true" jdbcType="1"/>
-      <column name="content" sqlType="CHAR" precision="1" scale="0" nullable="true" jdbcType="1"/>
-      <column name="fullContent" sqlType="CHAR" precision="1" scale="0" nullable="true" jdbcType="1"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="Question_answers" schema="" catalog="hibernate" type="TABLE">
-      <column name="qid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="answer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="qid,type"/>
-    </table>
-    <table name="con_emp" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="firstName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="payPerHour" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
-      <column name="contractDuration" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="emp" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="firstName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="question" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    <table name="z_person1_3" schema="" catalog="hibernate" type="TABLE">
+      <column name="person_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
+      <primary-key name="PRIMARY" columns="person_id"/>
     </table>
-    <table name="reg_emp" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="firstName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="salary" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
-      <column name="bonus" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="students" schema="" catalog="hibernate" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="name" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
-      <column name="age" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="sex" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
-      <column name="addres" sqlType="CHAR" precision="1" scale="0" nullable="false" jdbcType="1"/>
-      <column name="telephone" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="id"/>
+  </data-source>
+  <data-source name="MySQL - hibernateSpring@192.168.56.102" uuid="438af4c1-cfdd-4978-a414-891939506e95">
+    <database-info product="MySQL" version="5.5.56" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="hibernateSpring"/>
+    <table name="TEST_BLOG" schema="" catalog="hibernateSpring" type="TABLE">
+      <column name="BLOG_ID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="BLOG_ID"/>
+      <index name="UK_7a3d61t9kc3qy7xhtl13oc6cm" unique="true" columns="NAME"/>
     </table>
   </data-source>
 </component>

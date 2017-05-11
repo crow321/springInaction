@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.spring.action.idol.part2.hibernate.hibernate1.Collection.ListQuestion"
+           table="question">
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="name"/>
+
+        <list name="answers">
+            <key column="qid"/>
+            <index column="type"/>
+            <element column="answer" type="string"/>
+            <!--<one-to-many class="com.spring.action.idol.part2.hibernate11.Collection.Answer"/>-->
+        </list>
+    </class>
+
+</hibernate-mapping>

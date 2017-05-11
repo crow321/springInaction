@@ -1,8 +1,8 @@
 package com.spring.hibernate2;
 
-import com.spring.action.idol.part2.hibernate2.entity.Address;
-import com.spring.action.idol.part2.hibernate2.entity.IDCard;
-import com.spring.action.idol.part2.hibernate2.entity.Person;
+import com.spring.action.idol.part2.hibernate.hibernate2.entity.Address;
+import com.spring.action.idol.part2.hibernate.hibernate2.entity.IDCard;
+import com.spring.action.idol.part2.hibernate.hibernate2.entity.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -25,8 +25,9 @@ public class TestHibernate2 {
     //表1-1
     @Test
     public void testOne2One() {
-        Configuration cfg = new Configuration().configure("part2/hibernate2/hibernate2.cfg.xml");
-        cfg.addResource("part2/hibernate2/single/one2one.hbm.xml");
+        Configuration cfg = new Configuration()
+                .configure("part2/hibernate/hibernate2/hibernate2.cfg.xml")
+                .addResource("part2/hibernate/hibernate2/single/one2one.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
 
@@ -46,8 +47,8 @@ public class TestHibernate2 {
     //1-2
     @Test
     public void testManyToOne() {
-        Configuration cfg = new Configuration().configure("part2/hibernate2/hibernate2.cfg.xml");
-        cfg.addResource("part2/hibernate2/single/many2one.hbm.xml");
+        Configuration cfg = new Configuration().configure("part2/hibernate/hibernate2/hibernate2.cfg.xml");
+        cfg.addResource("part2/hibernate/hibernate2/single/many2one.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
 
@@ -73,8 +74,8 @@ public class TestHibernate2 {
     //1-3
     @Test
     public void testOneToMany() {
-        Configuration cfg = new Configuration().configure("part2/hibernate2/hibernate2.cfg.xml");
-        cfg.addResource("part2/hibernate2/single/one2many.hbm.xml");
+        Configuration cfg = new Configuration().configure("part2/hibernate/hibernate2/hibernate2.cfg.xml");
+        cfg.addResource("part2/hibernate/hibernate2/single/one2many.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
 
@@ -99,8 +100,8 @@ public class TestHibernate2 {
     //1-4
     @Test
     public void testManyToMany() {
-        Configuration cfg = new Configuration().configure("part2/hibernate2/hibernate2.cfg.xml");
-        cfg.addResource("part2/hibernate2/single/many2many.hbm.xml");
+        Configuration cfg = new Configuration().configure("part2/hibernate/hibernate2/hibernate2.cfg.xml");
+        cfg.addResource("part2/hibernate/hibernate2/single/many2many.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
 
@@ -131,8 +132,8 @@ public class TestHibernate2 {
     //2-1
     @Test
     public void testDoubleOne2One() {
-        Configuration cfg = new Configuration().configure("part2/hibernate2/hibernate2.cfg.xml");
-        cfg.addResource("part2/hibernate2/double/one2one.hbm.xml");
+        Configuration cfg = new Configuration().configure("part2/hibernate/hibernate2/hibernate2.cfg.xml");
+        cfg.addResource("part2/hibernate/hibernate2/double/one2one.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
 
@@ -156,8 +157,8 @@ public class TestHibernate2 {
     @Test
     public void testDoubleOneToMany() {
         Configuration cfg = new Configuration();
-        cfg.configure("/part2/hibernate2/hibernate2.cfg.xml")
-                .addResource("/part2/hibernate2/double/one2many.hbm.xml");
+        cfg.configure("/part2/hibernate/hibernate2/hibernate2.cfg.xml")
+                .addResource("/part2/hibernate/hibernate2/double/one2many.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
         Transaction transaction = session.beginTransaction();
@@ -185,8 +186,8 @@ public class TestHibernate2 {
     @Test
     public void testDoubleManyToMany() {
         Configuration cfg = new Configuration();
-        cfg.configure("/part2/hibernate2/hibernate2.cfg.xml")
-                .addResource("/part2/hibernate2/double/many2many.hbm.xml");
+        cfg.configure("/part2/hibernate/hibernate2/hibernate2.cfg.xml")
+                .addResource("/part2/hibernate/hibernate2/double/many2many.hbm.xml");
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
         Transaction transaction = session.beginTransaction();

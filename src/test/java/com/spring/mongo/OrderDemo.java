@@ -1,7 +1,7 @@
 package com.spring.mongo;
 
-import com.spring.action.idol.part2.mongo.Item;
-import com.spring.action.idol.part2.mongo.Order;
+import com.spring.action.idol.part2.mongo.entity.Item;
+import com.spring.action.idol.part2.mongo.entity.Order;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,23 +25,12 @@ public class OrderDemo {
     @Autowired
     private MongoTemplate mongoTemplate;
 
-   /* @Before
-    public void connectMongo(){
-        mongoTemplate.insert("order");
-    }*/
     @Test
-    public void demo(){
+    public void test() {
         long orderCount = mongoTemplate.getCollection("order").count();
 
         Order order = new Order();
-        order.setId("" + orderCount);
-       /* if (orderCount < 10) {
-            order.setCustomer("Chuck Wagon");
-        } else {
-            order.setCustomer("Chuck Wagon" + orderCount);
-        }*/
-
-        order.setId("orderID:" + orderCount);
+        order.setId("订单" + orderCount);
 
         Collection<Item> items = new LinkedHashSet<>();
         Item item = new Item();
@@ -52,7 +41,6 @@ public class OrderDemo {
 
         List<Order> chucksOrders = mongoTemplate.find(Query.query(Criteria.where("client").is("Chuck Wagon")), Order.class);
         System.out.println("chucksOrders:" + chucksOrders);
-        //Assert.assertNull(chucksOrders)
         Assert.assertEquals(3, mongoTemplate.getCollection("order").count());
         mongoTemplate.remove(order);
     }

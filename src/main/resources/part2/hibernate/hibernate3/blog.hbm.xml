@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.spring.action.idol.part2.hibernate.hibernate3.entity.Blog" table="TEST_BLOG">
+        <id name="id" column="BLOG_ID">
+            <generator class="native"/>
+        </id>
+
+        <!--<property name="name" column="NAME" not-null="true" unique="true"/>-->
+        <property name="name" column="NAME" not-null="true"/>
+
+        <bag name="items" inverse="true" order-by="DATE_TIME" cascade="all">
+            <key column="BLOG_ID"></key>
+            <one-to-many class="com.spring.action.idol.part2.hibernate.hibernate3.entity.BlogItem"/>
+        </bag>
+
+    </class>
+</hibernate-mapping>

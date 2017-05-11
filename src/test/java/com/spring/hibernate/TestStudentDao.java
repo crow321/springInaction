@@ -1,7 +1,7 @@
 package com.spring.hibernate;
 
-import com.spring.action.idol.part2.hibernate.dao.StudentDao;
-import com.spring.action.idol.part2.hibernate.entity.StudentsEntity;
+import com.spring.action.idol.part2.hibernate.hibernate1.dao.StudentDao;
+import com.spring.action.idol.part2.hibernate.hibernate1.entity.StudentsEntity;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by zhangp on 2017/5/5.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath*:/part2/hibernate/hibernate.xml")
+@ContextConfiguration("classpath*:/part2/hibernate/hibernate1/hibernate.xml")
 public class TestStudentDao {
     @Autowired
     StudentDao studentDao;
